@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.5rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    background-color: var(--LightGray);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-container{
+    background-color: var(--White);
+    border-radius: 2rem;
+    height: 49.7rem;  
+    width: 32.2rem;
+    text-align: center;
+    box-shadow: .3em 0.3em 1em rgba(0,0,0,0.3);
+
+}
+
+.img-qr{
+    height: 28.7rem;
+    width: 28.9rem;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.text{
+    padding: 18px 30px 40px 30px;
+}
+
+h1{
+    color:var(--DarkBlue);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+p{
+    color: var(--GrayishBlue);
+}
+
+
+
+/*--------------------------------FOOTER-----------------------------*/
+
+.attribution {
+    margin-top: 2rem; 
+    font-size: 1.1rem; text-align: center; 
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
